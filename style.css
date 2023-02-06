@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.screen {
+    width: 185px;
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20rem;
+    font-family: 'alarm clock', sans-serif;
+    background-image: url(images/dice1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+button {
+    margin-top: 5vh;
+    font-size: 3rem;
+    font-family: 'Roadly Hezarttest', sans-serif;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
